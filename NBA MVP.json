@@ -1,0 +1,316 @@
+{
+  "description": "NBA MVP award winners 1956-2017",
+  "source": "Wikipedia",
+  "winners": {
+    "1956": {
+      "name": "Bob Petit",
+      "team": "St. Louis Hawks",
+      "coast": "East"
+    },
+    "1957": {
+      "name": "Bob Cousy",
+      "team": "Boston Celtics",
+      "coast": "East"
+    },
+    "1958": {
+      "name": "Bill Russell",
+      "team": "Boston Celtics",
+      "coast": "East"
+    },
+    "1959": {
+      "name": "Bob Petit",
+      "team": "St. Louis Hawks",
+      "coast": "East"
+    },
+    "1960": {
+      "name": "Wilt Chamberlain",
+      "team": "Philadelphia Warriors",
+      "coast": "West"
+    },
+    "1961": {
+      "name": "Bill Russell",
+      "team": "Boston Celtics",
+      "coast": "East"
+    },
+    "1962": {
+      "name": "Bill Russell",
+      "team": "Boston Celtics",
+      "coast": "East"
+    },
+    "1963": {
+      "name": "Bill Russell",
+      "team": "Boston Celtics",
+      "coast": "East"
+    },
+    "1964": {
+      "name": "Oscar Robertson",
+      "team": "Cincinnati Royals",
+      "coast": "East"
+    },
+    "1965": {
+      "name": "Bill Russell",
+      "team": "Boston Celtics",
+      "coast": "East"
+    },
+    "1966": {
+      "name": "Wilt Chamberlain",
+      "team": "Philadelphia 76ers",
+      "coast": "West"
+    },
+    "1967": {
+      "name": "Wilt Chamberlain",
+      "team": "Philadelphia 76ers",
+      "coast": "West"
+    },
+    "1968": {
+      "name": "Wilt Chamberlain",
+      "team": "Philadelphia 76ers",
+      "coast": "West"
+    },
+    "1969": {
+      "name": "Wes Unseld",
+      "team": "Baltimore Bullets",
+      "coast": "East"
+    },
+    "1970": {
+      "name": "Willis Reed",
+      "team": "New York Knicks",
+      "coast": "East"
+    },
+    "1971": {
+      "name": "Lew Alcindor",
+      "team": "Milwaukee Bucks",
+      "coast": "West"
+    },
+    "1972": {
+      "name": "Kareem Abdul-Jabbar",
+      "team": "Milwaukee Bucks",
+      "coast": "West"
+    },
+    "1973": {
+      "name": "Dave Cowens",
+      "team": "Boston Celtics",
+      "coast": "East"
+    },
+    "1974": {
+      "name": "Kareem Abdul-Jabbar",
+      "team": "Milwaukee Bucks",
+      "coast": "West"
+    },
+    "1975": {
+      "name": "Bob McAdoo",
+      "team": "Buffalo Braves",
+      "coast": "West"
+    },
+    "1976": {
+      "name": "Kareem Abdul-Jabbar",
+      "team": "Los Angeles Lakers",
+      "coast": "West"
+    },
+    "1977": {
+      "name": "Kareem Abdul-Jabbar",
+      "team": "Los Angeles Lakers",
+      "coast": "West"
+    },
+    "1978": {
+      "name": "Bill Walton",
+      "team": "Portland Trail Blazers",
+      "coast": "West"
+    },
+    "1979": {
+      "name": "Moses Malone",
+      "team": "Houston Rockets",
+      "coast": "West"
+    },
+    "1980": {
+      "name": "Kareem Abdul-Jabbar",
+      "team": "Los Angeles Lakers",
+      "coast": "West"
+    },
+    "1981": {
+      "name": "Julius Erving",
+      "team": "Philadelphia 76ers",
+      "coast": "East"
+    },
+    "1982": {
+      "name": "Moses Malone",
+      "team": "Houston Rockets",
+      "coast": "West"
+    },
+    "1983": {
+      "name": "Moses Malone",
+      "team": "Philadelphia 76ers",
+      "coast": "East"
+    },
+    "1984": {
+      "name": "Larry Bird",
+      "team": "Boston Celtics",
+      "coast": "East"
+    },
+    "1985": {
+      "name": "Larry Bird",
+      "team": "Boston Celtics",
+      "coast": "East"
+    },
+    "1986": {
+      "name": "Larry Bird",
+      "team": "Boston Celtics",
+      "coast": "East"
+    },
+    "1987": {
+      "name": "Magic Johnson",
+      "team": "Los Angeles Lakers",
+      "coast": "West"
+    },
+    "1988": {
+      "name": "Michael Jordan",
+      "team": "Chicago Bulls",
+      "coast": "West"
+    },
+    "1989": {
+      "name": "Magic Johnson",
+      "team": "Los Angeles Lakers",
+      "coast": "West"
+    },
+    "1990": {
+      "name": "Magic Johnson",
+      "team": "Los Angeles Lakers",
+      "coast": "West"
+    },
+    "1991": {
+      "name": "Michael Jordan",
+      "team": "Chicago Bulls",
+      "coast": "West"
+    },
+    "1992": {
+      "name": "Michael Jordan",
+      "team": "Chicago Bulls",
+      "coast": "West"
+    },
+    "1993": {
+      "name": "Charles Barkley",
+      "team": "Phoenix Suns",
+      "coast": "West"
+    },
+    "1994": {
+      "name": "Hakeem Olajuwon",
+      "team": "Houston Rockets",
+      "coast": "West"
+    },
+    "1995": {
+      "name": "David Robinson",
+      "team": "San Antonio Spurs",
+      "coast": "West"
+    },
+    "1996": {
+      "name": "Michael Jordan",
+      "team": "Chicago Bulls",
+      "coast": "West"
+    },
+    "1997": {
+      "name": "Karl Malone",
+      "team": "Utah Jazz",
+      "coast": "West"
+    },
+    "1998": {
+      "name": "Michael Jordan",
+      "team": "Chicago Bulls",
+      "coast": "West"
+    },
+    "1999": {
+      "name": "Karl Malone",
+      "team": "Utah Jazz",
+      "coast": "West"
+    },
+    "2000": {
+      "name": "Shaquille O'Neal",
+      "team": "Los Angeles Lakers",
+      "coast": "West"
+    },
+    "2001": {
+      "name": "Allen Iverson",
+      "team": "Philadelphia 76ers",
+      "coast": "East"
+    },
+    "2002": {
+      "name": "Tim Duncan",
+      "team": "San Antonio Spurs",
+      "coast": "West"
+    },
+    "2003": {
+      "name": "Tim Duncan",
+      "team": "San Antonio Spurs",
+      "coast": "West"
+    },
+    "2004": {
+      "name": "Kevin Garnett",
+      "team": "Minnesota Timberwolves",
+      "coast": "West"
+    },
+    "2005": {
+      "name": "Steve Nash",
+      "team": "Phoenix Suns",
+      "coast": "West"
+    },
+    "2006": {
+      "name": "Steve Nash",
+      "team": "Phoenix Suns",
+      "coast": "West"
+    },
+    "2007": {
+      "name": "Dirk Nowitzki",
+      "team": "Dallas Mavericks",
+      "coast": "West"
+    },
+    "2008": {
+      "name": "Kobe Bryant",
+      "team": "Los Angeles Lakers",
+      "coast": "West"
+    },
+    "2009": {
+      "name": "LeBron James",
+      "team": "Cleveland Cavaliers",
+      "coast": "East"
+    },
+    "2010": {
+      "name": "LeBron James",
+      "team": "Cleveland Cavaliers",
+      "coast": "East"
+    },
+    "2011": {
+      "name": "Derrick Rose",
+      "team": "Chicago Bulls",
+      "coast": "West"
+    },
+    "2012": {
+      "name": "LeBron James",
+      "team": "Miami Heat",
+      "coast": "East"
+    },
+    "2013": {
+      "name": "LeBron James",
+      "team": "Miami Heat",
+      "coast": "East"
+    },
+    "2014": {
+      "name": "Kevin Durant",
+      "team": "Oklahoma City Thunder",
+      "coast": "West"
+    },
+    "2015": {
+      "name": "Stephen Curry",
+      "team": "Golden State Warriors",
+      "coast": "West"
+    },
+    "2016": {
+      "name": "Stephen Curry",
+      "team": "Golden State Warriors",
+      "coast": "West"
+    },
+    "2017": {
+      "name": "Russell Westbrook",
+      "team": "Oklahoma City Thunder",
+      "coast": "West"
+    }
+  }
+}
