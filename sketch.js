@@ -1,4 +1,4 @@
-let data; // JSON data
+let data; 
 let westCoastWinners = [];
 let eastCoastWinners = [];
 let years = [];
@@ -6,17 +6,15 @@ let years = [];
 let selectedWinner = null;
 
 function preload() {
-  // Load your JSON data
-  data = loadJSON('NBA MVP.json'); // Replace 'your_data.json' with the path to your JSON file
+
+  data = loadJSON('NBA MVP.json'); 
 }
 
 function setup() {
   background(220);
     let canvas = createCanvas(800, 400);
     canvas.parent('data');
-    //noLoop();
 
-  // Separate the MVP winners into West Coast and East Coast categories
   for (let year in data.winners) {
     const winner = data.winners[year];
     if (winner.coast === 'West') {
@@ -27,17 +25,13 @@ function setup() {
     years.push(int(year));
   }
 
-  // Sort the MVP winners by year
   westCoastWinners.sort((a, b) => a.year - b.year);
   eastCoastWinners.sort((a, b) => a.year - b.year);
 
-  // Draw West Coast winners on the top half
-  drawWinners(westCoastWinners, height * 0.25, color(255, 0, 0)); // Use your preferred color
+  drawWinners(westCoastWinners, height * 0.25, color(255, 0, 0)); 
 
-  // Draw East Coast winners on the bottom half
-  drawWinners(eastCoastWinners, height * 0.75, color(0, 0, 255)); // Use your preferred color
+  drawWinners(eastCoastWinners, height * 0.75, color(0, 0, 255)); 
 
-  // Draw the timeline in the middle
   drawTimeline(min(years), max(years), height / 2);
 }
 
@@ -49,7 +43,7 @@ function drawWinners(winners, yPos, winnerColor) {
     const x = map(winners[i].year, min(years), max(years), 50, width - 50);
     const d = dist(mouseX, mouseY, x, yPos);
     if (d < 10) {
-      fill(255, 0, 0); // Highlight on hover
+      fill(255, 0, 0); 
       selectedWinner = winners[i].name;
     }
     ellipse(x, yPos, 10, 10);
@@ -72,12 +66,10 @@ function drawTimeline(startYear, endYear, yPos) {
 }
 
 function mouseMoved() {
-  // Clear selection when not hovering over a data point
   selectedWinner = null;
 }
 
 function draw() {
-  // Display the selected winner's name (if any)
   if (selectedWinner !== null) {
     textSize(16);
     fill(0);
