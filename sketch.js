@@ -4,7 +4,8 @@ let eastCoastWinners = [];
 let years = [];
 let basketballImg;
 let swooshSound;
-let courtImg; 
+let courtImg;
+
 let selectedWinner = null;
 
 function preload() {
@@ -53,7 +54,7 @@ function drawWinners(winners, yPos, winnerColor) {
 function drawTimeline(startYear, endYear, yPos) {
   const timelineX1 = 50;
   const timelineX2 = width - 50;
-  stroke(0, 0, 139);
+  stroke(0);
   strokeWeight(1);
   line(timelineX1, yPos, timelineX2, yPos);
 
@@ -93,6 +94,7 @@ function draw() {
 
   drawWinners(westCoastWinners, height * 0.25, color(255, 69, 0)); 
   drawWinners(eastCoastWinners, height * 0.75, color(30, 144, 255)); 
+  drawTimeline(min(years), max(years), height / 2);
 
   if (selectedWinner !== null) {
     fill(0, 0, 139); 
